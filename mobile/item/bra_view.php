@@ -451,22 +451,22 @@
 			});
 			
 			// 퀵바이 구매하기 버튼, 스크롤에 업/다운에 따라 보이기 안보이기			
-			var scroll_stop_top  = 0;
+			var scroll_start_top  = 0;
 			
 			$(window).on("load", function() {
-				scroll_stop_top = $(this).scrollTop();
+				scroll_start_top = $(this).scrollTop();
 			});
 			
-			$(window).on("scrollstart", function(e) {
-				if (scroll_stop_top < $(this).scrollTop()) {
+			$(window).on("scroll", function(e) {
+				if (scroll_start_top < $(this).scrollTop()) {
 					$('.quickbuy-nav:eq(0)').addClass('hidden');
 				} else {
 					$('.quickbuy-nav:eq(0)').removeClass('hidden');
 				}
 			});
 			
-			$(window).on("scrollstop", function(e) {
-				scroll_stop_top = $(this).scrollTop();
+			$(window).on("touchstart", function(e) {
+				scroll_start_top = $(this).scrollTop();
 			});
 			
 		})(jQuery);
