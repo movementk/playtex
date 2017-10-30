@@ -359,6 +359,18 @@
                                 </li>
                             </ul>
                         </nav>
+                        <div class="review-mileage">
+                            <a href="#">
+                                <figure>
+                                    <img src="/design/playtex/assets/images/item/review_mileage.png" class="img-responsive" alt="리뷰 적립금">
+                                </figure>
+                            </a>
+                            <ul class="note-list">
+                                <li>고객님께서 작성해주시는 구매후기는 다른 분들께 소중한 정보가 됩니다.</li>
+                                <li>작성해주신 구매후기는 모두 공개함이 원칙이나 즉시 자동 반영되지는 않습니다.</li>
+                                <li>후기 게시판 성격에 맞지 않는 글 (광고/교환/반품) 혹은 지나친 비방글에 대한 관리 차원으로 관리자에 의해 삭제될수있습니다.</li>
+                            </ul>
+                        </div>
                     </div>
                 </article>
                 <article id="inquiry">
