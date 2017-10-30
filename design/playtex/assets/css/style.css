@@ -1960,6 +1960,26 @@ body.has-top-banner #header {
   border-right: 0; }
 .common-view .product-information #review .article-content {
   margin-top: 50px; }
+  .common-view .product-information #review .article-content .review-mileage {
+    margin-top: 60px; }
+    .common-view .product-information #review .article-content .review-mileage a {
+      display: block;
+      margin-bottom: 40px; }
+      .common-view .product-information #review .article-content .review-mileage a figure .img-responsive {
+        margin: 0 auto; }
+    .common-view .product-information #review .article-content .review-mileage .note-list li {
+      position: relative;
+      font-size: 13px;
+      color: #666;
+      line-height: 26px;
+      font-weight: 400;
+      padding-left: 10px; }
+      .common-view .product-information #review .article-content .review-mileage .note-list li:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: "\E807";
+        font-family: "fontello"; }
 .common-view .product-information #inquiry .article-header .information-tab > li:nth-of-type(3) a {
   border-right: 0; }
 .common-view .product-information #inquiry .article-content {
