@@ -437,6 +437,7 @@
 	</main>
 	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/mobile/inc/footer.php"); ?>
 	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/mobile/inc/docfoot.php"); ?>
+	<script src="/design/playtex/mobile/js/jquery.mobile.custom.min.js"></script>
 	<script>
 		(function($) {
 			// 퀵바이 옵션 열기 and 닫기
@@ -448,6 +449,26 @@
 				$(".quickbuy-content").hide();
 				e.preventDefault();
 			});
+			
+			// 퀵바이 구매하기 버튼, 스크롤에 업/다운에 따라 보이기 안보이기			
+			var scroll_start_top  = 0;
+			
+			$(window).on("load", function() {
+				scroll_start_top = $(this).scrollTop();
+			});
+			
+			$(window).on("scroll", function(e) {
+				if (scroll_start_top < $(this).scrollTop()) {
+					$('.quickbuy-nav:eq(0)').addClass('hidden');
+				} else {
+					$('.quickbuy-nav:eq(0)').removeClass('hidden');
+				}
+			});
+			
+			$(window).on("touchstart", function(e) {
+				scroll_start_top = $(this).scrollTop();
+			});
+			
 		})(jQuery);
 	</script>
 </body>
