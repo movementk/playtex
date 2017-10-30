@@ -1397,6 +1397,8 @@ label {
           font-size: 16px; }
           .product .common-view .view .quickbuy-nav p .btn-favor i {
             color: #fff; }
+      .product .common-view .view .quickbuy-nav.hidden {
+        bottom: -67px; }
   .product .common-view .product-detils {
     margin-top: 20px; }
     .product .common-view .product-detils .collapse-content .btn-primary {
