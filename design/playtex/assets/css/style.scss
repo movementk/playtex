@@ -671,6 +671,13 @@ body.has-top-banner {
                                             line-height: 22px;
                                             margin-bottom: 20px;
                                         }
+                                        strike {
+                                        	font-size: 15px;
+                                        	color: #aaa;
+                                        	display: inline-block;
+                                        	margin-right: 15px;
+                                        	@include maven();
+                                        }
                                         strong {
                                             font-size: 18px;
                                             color: #333;
@@ -1187,6 +1194,13 @@ body.has-top-banner {
                                             line-height: 22px;
                                             margin-bottom: 20px;
                                         }
+                                        strike {
+                                        	font-size: 15px;
+                                        	color: #aaa;
+                                        	display: inline-block;
+                                        	margin-right: 15px;
+                                        	@include maven();
+                                        }
                                         strong {
                                             font-size: 18px;
                                             color: #333;
@@ -1316,6 +1330,13 @@ body.has-top-banner {
                                 line-height: 22px;
                                 margin-bottom: 20px;
                             }
+                            strike {
+								font-size: 15px;
+								color: #aaa;
+								display: inline-block;
+								margin-right: 15px;
+								@include maven();
+							}
                             strong {
                                 font-size: 18px;
                                 color: #333;
@@ -1810,6 +1831,13 @@ body.has-top-banner {
                                 color: #333;
                                 line-height: 22px;
                                 margin-bottom: 20px;
+                            }
+                            strike {
+                            	display: inline-block;
+                            	font-size: 14px;
+                            	color: #aaa;
+                            	margin-right: 15px;
+                            	@include maven();
                             }
                             strong {
                                 font-size: 18px;
