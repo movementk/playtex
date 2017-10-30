@@ -2448,6 +2448,35 @@ body.has-top-banner {
                         }
                     }
                 }
+                .review-mileage {
+                    margin-top: 60px;
+                    a {
+                        display: block;
+                        margin-bottom: 40px;
+                        figure {
+                            .img-responsive {
+                                margin: 0 auto;
+                            }
+                        }
+                    }
+                    .note-list {
+                        li {
+                            position: relative;
+                            font-size: 13px;
+                            color: #666;
+                            line-height: 26px;
+                            font-weight: 400;
+                            padding-left: 10px;
+                            &:before {
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                content: "\E807";
+                                font-family: "fontello";
+                            }
+                        }
+                    }
+                }
             }
         }
         #inquiry {
