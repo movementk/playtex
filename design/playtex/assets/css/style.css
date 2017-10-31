@@ -1781,6 +1781,52 @@ body.has-top-banner #header {
               font-family: 'Maven Pro', sans-serif;
               font-size: 18px;
               font-weight: bold; }
+        .common-view .item-view .view-header .details .product-info .MK_optAddWrap {
+          margin-top: 20px; }
+          .common-view .item-view .view-header .details .product-info .MK_optAddWrap .MK_inner-opt-cm > li {
+            overflow: hidden;
+            padding: 10px 20px;
+            border: 1px solid #eaeaea;
+            background-color: #f9f9f9;
+            text-align: right;
+            line-height: 30px; }
+            .common-view .item-view .view-header .details .product-info .MK_optAddWrap .MK_inner-opt-cm > li .MK_p-name {
+              float: left;
+              width: 109px;
+              text-align: left;
+              font-size: 13px;
+              color: #333; }
+            .common-view .item-view .view-header .details .product-info .MK_optAddWrap .MK_inner-opt-cm > li .MK_qty-ctrl {
+              position: relative;
+              float: left;
+              width: 115px; }
+              .common-view .item-view .view-header .details .product-info .MK_optAddWrap .MK_inner-opt-cm > li .MK_qty-ctrl input {
+                padding-left: 10px;
+                padding-right: 10px;
+                width: 100px;
+                height: 30px;
+                border: 1px solid #dfdfdf;
+                font-size: 13px; }
+              .common-view .item-view .view-header .details .product-info .MK_optAddWrap .MK_inner-opt-cm > li .MK_qty-ctrl a {
+                position: absolute;
+                width: 11px;
+                height: 9px; }
+                .common-view .item-view .view-header .details .product-info .MK_optAddWrap .MK_inner-opt-cm > li .MK_qty-ctrl a img {
+                  display: block; }
+              .common-view .item-view .view-header .details .product-info .MK_optAddWrap .MK_inner-opt-cm > li .MK_qty-ctrl .MK_btn-up {
+                top: 3px;
+                right: 0; }
+              .common-view .item-view .view-header .details .product-info .MK_optAddWrap .MK_inner-opt-cm > li .MK_qty-ctrl .MK_btn-dw {
+                bottom: 3px;
+                right: 0; }
+            .common-view .item-view .view-header .details .product-info .MK_optAddWrap .MK_inner-opt-cm > li .MK_price {
+              font-size: 14px;
+              font-family: 'Maven Pro', sans-serif; }
+            .common-view .item-view .view-header .details .product-info .MK_optAddWrap .MK_inner-opt-cm > li .MK_btn-del img {
+              margin-left: 10px;
+              margin-top: -2px; }
+            .common-view .item-view .view-header .details .product-info .MK_optAddWrap .MK_inner-opt-cm > li + li {
+              margin-top: 10px; }
         .common-view .item-view .view-header .details .product-info .product-opstion {
           margin: 25px 0;
           padding: 15px 100px 15px 0;

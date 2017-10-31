@@ -2160,6 +2160,68 @@ body.has-top-banner {
 							}
 						}
 					}
+					.MK_optAddWrap {
+						margin-top: 20px;
+						.MK_inner-opt-cm {
+							> li {
+								overflow: hidden;
+								padding: 10px 20px;
+								border: 1px solid #eaeaea;
+								background-color: #f9f9f9;
+								text-align: right;
+								line-height: 30px;
+								.MK_p-name {
+									float: left;
+									width: 109px;
+									text-align: left;
+									font-size: 13px;
+									color: #333;
+								}
+								.MK_qty-ctrl {
+									position: relative;
+									float: left;
+									width: 115px;
+									input {
+										padding-left: 10px;
+										padding-right: 10px;
+										width: 100px;
+										height: 30px;
+										border: 1px solid #dfdfdf;
+										font-size: 13px;
+									}
+									a {
+										position: absolute;
+										width: 11px;
+										height: 9px;
+										img {
+											display: block;
+										}
+									}
+									.MK_btn-up {
+										top: 3px;
+										right: 0;
+									}
+									.MK_btn-dw {
+										bottom: 3px;
+										right: 0;
+									}
+								}
+								.MK_price {
+									font-size: 14px;
+									@include maven();
+								}
+								.MK_btn-del {
+									img {
+										margin-left: 10px;
+										margin-top: -2px;
+									}
+								}
+								& + li {
+									margin-top: 10px;
+								}
+							}
+						}
+					}
                     .product-opstion {
                         margin: 25px 0;
                         padding: 15px 100px 15px 0;
