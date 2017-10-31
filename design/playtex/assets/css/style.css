@@ -544,6 +544,12 @@ body.has-top-banner #header {
             color: #333;
             line-height: 22px;
             margin-bottom: 20px; }
+          #content #best-seller .best-list .bx-wrapper .bx-viewport ul li a figure figcaption strike {
+            font-size: 15px;
+            color: #aaa;
+            display: inline-block;
+            margin-right: 15px;
+            font-family: 'Maven Pro', sans-serif; }
           #content #best-seller .best-list .bx-wrapper .bx-viewport ul li a figure figcaption strong {
             font-size: 18px;
             color: #333;
@@ -1065,6 +1071,12 @@ body.has-top-banner #header {
             color: #333;
             line-height: 22px;
             margin-bottom: 20px; }
+          #content #new-arrivals .arrivals-list .bx-wrapper .bx-viewport ul li a figure figcaption strike {
+            font-size: 15px;
+            color: #aaa;
+            display: inline-block;
+            margin-right: 15px;
+            font-family: 'Maven Pro', sans-serif; }
           #content #new-arrivals .arrivals-list .bx-wrapper .bx-viewport ul li a figure figcaption strong {
             font-size: 18px;
             color: #333;
@@ -1167,6 +1179,12 @@ body.has-top-banner #header {
           color: #333;
           line-height: 22px;
           margin-bottom: 20px; }
+        #content #editors-pick ul li a figure figcaption strike {
+          font-size: 15px;
+          color: #aaa;
+          display: inline-block;
+          margin-right: 15px;
+          font-family: 'Maven Pro', sans-serif; }
         #content #editors-pick ul li a figure figcaption strong {
           font-size: 18px;
           color: #333;
@@ -1550,6 +1568,12 @@ body.has-top-banner #header {
           color: #333;
           line-height: 22px;
           margin-bottom: 20px; }
+        .common-list .product-list ul.row li a figure figcaption strike {
+          display: inline-block;
+          font-size: 14px;
+          color: #aaa;
+          margin-right: 15px;
+          font-family: 'Maven Pro', sans-serif; }
         .common-list .product-list ul.row li a figure figcaption strong {
           font-size: 18px;
           color: #333;
