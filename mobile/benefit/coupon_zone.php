@@ -33,7 +33,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="app-coupon">
+                        <!--div class="app-coupon">
                             <h5 class="coupon-title">
                                 앱다운로드 후<br><b>로그인 하기</b>
                             </h5>
@@ -51,6 +51,12 @@
                                     </a>
                                 </p>
                             </div>
+                        </div-->
+                        <div class="none-coupon">
+                            <figure>
+                                <img src="/design/playtex/mobile/images/benefit/none_event.jpg" class="img-responsive" alt="">
+                                <figcaption>이벤트 준비중 입니다</figcaption>
+                            </figure>
                         </div>
                     </div>
                 </div>
@@ -67,7 +73,7 @@
                         이번 달에만 받을 수 있는<br>
                         <b>특별할인<i>!</i></b>
                     </h4>
-                    <div class="coupon-list">
+                    <!--div class="coupon-list">
                         <figure>
                             <img src="/design/playtex/mobile/images/benefit/special_coupon.jpg" class="img-responsive" alt="스페셜 쿠폰">
                             <figcaption class="sr-only">스페셜 쿠폰</figcaption>
@@ -92,6 +98,15 @@
                             </li>
                             <li>(한 아이디당 1장 발급)</li>
                         </ul>
+                    </div-->
+                    <div class="coupon-summary">
+                        <p class="figure">
+                            <img src="/design/playtex/mobile/images/benefit/special_coupon_new.jpg" class="img-responsive" alt="스페셜 쿠폰">
+                        </p>
+                        <p class="details">
+                            주말 쿠폰과 깜짝 쿠폰은 수시로 업데이트 됩니다.<br>
+                            자주 오셔서 확인해주세요~~
+                        </p>
                     </div>
                 </div>
             </div>

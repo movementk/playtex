@@ -68,7 +68,7 @@ a {
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: auto 50px;
-    background-color: #ae9e91; }
+    background-color: #fa5d72 !important; }
 
 #header {
   position: fixed;
@@ -3743,6 +3743,16 @@ label {
                     width: 63px; }
           .coupon-zone section.playtex-coupon .section-content .coupon-list > div.join-coupon {
             margin-bottom: 20px; }
+          .coupon-zone section.playtex-coupon .section-content .coupon-list > div.none-coupon {
+            background-color: #fff;
+            padding: 80px; }
+            .coupon-zone section.playtex-coupon .section-content .coupon-list > div.none-coupon figure .img-responsive {
+              margin: 0 auto; }
+            .coupon-zone section.playtex-coupon .section-content .coupon-list > div.none-coupon figure figcaption {
+              font-size: 14px;
+              color: #2b2b2b;
+              font-weight: 500;
+              margin-top: 15px; }
   .coupon-zone section.only-months .section-content {
     padding-bottom: 50px; }
     .coupon-zone section.only-months .section-content .coupon-list {
@@ -3786,6 +3796,17 @@ label {
             font-weight: 300;
             line-height: 24px;
             display: inline-block; }
+    .coupon-zone section.only-months .section-content .coupon-summary {
+      padding: 30px 0 40px; }
+      .coupon-zone section.only-months .section-content .coupon-summary .figure {
+        padding: 0 60px; }
+        .coupon-zone section.only-months .section-content .coupon-summary .figure .img-responsive {
+          margin: 0 auto; }
+      .coupon-zone section.only-months .section-content .coupon-summary .details {
+        font-size: 15px;
+        color: #666;
+        line-height: 18px;
+        margin-top: 30px; }
   .coupon-zone section.members-benefit-1 {
     background-color: #f1f2f4; }
     .coupon-zone section.members-benefit-1 .section-header h3 {

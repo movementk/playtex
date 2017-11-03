@@ -110,7 +110,7 @@ a {
 		background-repeat: no-repeat;
 		background-position: 50% 50%;
 		background-size: auto 50px;
-		background-color: #ae9e91;
+		background-color: #fa5d72 !important;
 	}
 }
 
@@ -5249,6 +5249,21 @@ label {
                         &.join-coupon {
                             margin-bottom: 20px;
                         }
+                        &.none-coupon {
+                            background-color: #fff;
+                            padding: 80px;
+                            figure {
+                                .img-responsive {
+                                    margin: 0 auto;
+                                }
+                                figcaption {
+                                    font-size: 14px;
+                                    color: #2b2b2b;
+                                    font-weight: 500;
+                                    margin-top: 15px;
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -5310,6 +5325,21 @@ label {
                             }
                             
                         }
+                    }
+                }
+                .coupon-summary {
+                    padding: 30px 0 40px;
+                    .figure {
+                        padding: 0 60px;
+                        .img-responsive {
+                            margin: 0 auto;
+                        }
+                    }
+                    .details {
+                        font-size: 15px;
+                        color: #666;
+                        line-height: 18px;
+                        margin-top: 30px;
                     }
                 }
             }

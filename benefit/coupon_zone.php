@@ -33,7 +33,7 @@
                             </article>
                         </div>
                         <div class="col-xs-6">
-                            <article>
+                            <!--article>
                                 <h4>앱다운로드 후<strong>로그인하기</strong></h4>
                                 <figure>
                                     <img src="/design/playtex/assets/images/benefit/app_coupon.jpg" alt="앱 다운로드 쿠폰">
@@ -46,7 +46,13 @@
                                         <img src="/design/playtex/assets/images/benefit/appstore_logo.jpg" alt="app store">
                                     </a>
                                 </p>
-                            </article>
+                            </article-->
+                            <div class="none-event">
+                                <figure>
+                                    <img src="/design/playtex/assets/images/benefit/none_event.jpg" alt="">
+                                    <figcaption>이벤트 준비중 입니다</figcaption>
+                                </figure>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -61,7 +67,7 @@
                     </div>
                     <h3>이번 달에만 받을 수 있는 <strong>특별할인<i>!</i></strong></h3>
                 </div>
-                <div class="section-content">
+                <!--div class="section-content">
                     <figure>
                         <img src="/design/playtex/assets/images/benefit/special_discount_coupon.jpg" alt="특별할인 쿠폰">
                     </figure>
@@ -82,6 +88,15 @@
                             </dl>
                         </li>
                     </ul>
+                </div-->
+                <div class="coupon-summary">
+                    <figure>
+                        <img src="/design/playtex/assets/images/benefit/special_coupon.jpg" alt="">
+                        <figcaption>
+                            주말 쿠폰과 깜짝 쿠폰은 수시로 업데이트 됩니다.<br>
+                            자주 오셔서 확인해주세요~~
+                        </figcaption>
+                    </figure>
                 </div>
             </div>
         </section>
